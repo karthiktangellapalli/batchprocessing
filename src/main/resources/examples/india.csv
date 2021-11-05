@@ -1,0 +1,342 @@
+ID	Name	District	CountryCode	Population
+1024	Mumbai (Bombay)	Maharashtra	IND	10500000
+1025	Delhi	Delhi	IND	7206704
+1026	Calcutta [Kolkata]	West Bengali	IND	4399819
+1027	Chennai (Madras)	Tamil Nadu	IND	3841396
+1028	Hyderabad	Andhra Pradesh	IND	2964638
+1029	Ahmedabad	Gujarat	IND	2876710
+1030	Bangalore	Karnataka	IND	2660088
+1031	Kanpur	Uttar Pradesh	IND	1874409
+1032	Nagpur	Maharashtra	IND	1624752
+1033	Lucknow	Uttar Pradesh	IND	1619115
+1034	Pune	Maharashtra	IND	1566651
+1035	Surat	Gujarat	IND	1498817
+1036	Jaipur	Rajasthan	IND	1458483
+1037	Indore	Madhya Pradesh	IND	1091674
+1038	Bhopal	Madhya Pradesh	IND	1062771
+1039	Ludhiana	Punjab	IND	1042740
+1040	Vadodara (Baroda)	Gujarat	IND	1031346
+1041	Kalyan	Maharashtra	IND	1014557
+1042	Madurai	Tamil Nadu	IND	977856
+1043	Haora (Howrah)	West Bengali	IND	950435
+1044	Varanasi (Benares)	Uttar Pradesh	IND	929270
+1045	Patna	Bihar	IND	917243
+1046	Srinagar	Jammu and Kashmir	IND	892506
+1047	Agra	Uttar Pradesh	IND	891790
+1048	Coimbatore	Tamil Nadu	IND	816321
+1049	Thane (Thana)	Maharashtra	IND	803389
+1050	Allahabad	Uttar Pradesh	IND	792858
+1051	Meerut	Uttar Pradesh	IND	753778
+1052	Vishakhapatnam	Andhra Pradesh	IND	752037
+1053	Jabalpur	Madhya Pradesh	IND	741927
+1054	Amritsar	Punjab	IND	708835
+1055	Faridabad	Haryana	IND	703592
+1056	Vijayawada	Andhra Pradesh	IND	701827
+1057	Gwalior	Madhya Pradesh	IND	690765
+1058	Jodhpur	Rajasthan	IND	666279
+1059	Nashik (Nasik)	Maharashtra	IND	656925
+1060	Hubli-Dharwad	Karnataka	IND	648298
+1061	Solapur (Sholapur)	Maharashtra	IND	604215
+1062	Ranchi	Jharkhand	IND	599306
+1063	Bareilly	Uttar Pradesh	IND	587211
+1064	Guwahati (Gauhati)	Assam	IND	584342
+1065	Shambajinagar (Aurangabad)	Maharashtra	IND	573272
+1066	Cochin (Kochi)	Kerala	IND	564589
+1067	Rajkot	Gujarat	IND	559407
+1068	Kota	Rajasthan	IND	537371
+1069	Thiruvananthapuram (Trivandrum	Kerala	IND	524006
+1070	Pimpri-Chinchwad	Maharashtra	IND	517083
+1071	Jalandhar (Jullundur)	Punjab	IND	509510
+1072	Gorakhpur	Uttar Pradesh	IND	505566
+1073	Chandigarh	Chandigarh	IND	504094
+1074	Mysore	Karnataka	IND	480692
+1075	Aligarh	Uttar Pradesh	IND	480520
+1076	Guntur	Andhra Pradesh	IND	471051
+1077	Jamshedpur	Jharkhand	IND	460577
+1078	Ghaziabad	Uttar Pradesh	IND	454156
+1079	Warangal	Andhra Pradesh	IND	447657
+1080	Raipur	Chhatisgarh	IND	438639
+1081	Moradabad	Uttar Pradesh	IND	429214
+1082	Durgapur	West Bengali	IND	425836
+1083	Amravati	Maharashtra	IND	421576
+1084	Calicut (Kozhikode)	Kerala	IND	419831
+1085	Bikaner	Rajasthan	IND	416289
+1086	Bhubaneswar	Orissa	IND	411542
+1087	Kolhapur	Maharashtra	IND	406370
+1088	Kataka (Cuttack)	Orissa	IND	403418
+1089	Ajmer	Rajasthan	IND	402700
+1090	Bhavnagar	Gujarat	IND	402338
+1091	Tiruchirapalli	Tamil Nadu	IND	387223
+1092	Bhilai	Chhatisgarh	IND	386159
+1093	Bhiwandi	Maharashtra	IND	379070
+1094	Saharanpur	Uttar Pradesh	IND	374945
+1095	Ulhasnagar	Maharashtra	IND	369077
+1096	Salem	Tamil Nadu	IND	366712
+1097	Ujjain	Madhya Pradesh	IND	362266
+1098	Malegaon	Maharashtra	IND	342595
+1099	Jamnagar	Gujarat	IND	341637
+1100	Bokaro Steel City	Jharkhand	IND	333683
+1101	Akola	Maharashtra	IND	328034
+1102	Belgaum	Karnataka	IND	326399
+1103	Rajahmundry	Andhra Pradesh	IND	324851
+1104	Nellore	Andhra Pradesh	IND	316606
+1105	Udaipur	Rajasthan	IND	308571
+1106	New Bombay	Maharashtra	IND	307297
+1107	Bhatpara	West Bengali	IND	304952
+1108	Gulbarga	Karnataka	IND	304099
+1109	New Delhi	Delhi	IND	301297
+1110	Jhansi	Uttar Pradesh	IND	300850
+1111	Gaya	Bihar	IND	291675
+1112	Kakinada	Andhra Pradesh	IND	279980
+1113	Dhule (Dhulia)	Maharashtra	IND	278317
+1114	Panihati	West Bengali	IND	275990
+1115	Nanded (Nander)	Maharashtra	IND	275083
+1116	Mangalore	Karnataka	IND	273304
+1117	Dehra Dun	Uttaranchal	IND	270159
+1118	Kamarhati	West Bengali	IND	266889
+1119	Davangere	Karnataka	IND	266082
+1120	Asansol	West Bengali	IND	262188
+1121	Bhagalpur	Bihar	IND	253225
+1122	Bellary	Karnataka	IND	245391
+1123	Barddhaman (Burdwan)	West Bengali	IND	245079
+1124	Rampur	Uttar Pradesh	IND	243742
+1125	Jalgaon	Maharashtra	IND	242193
+1126	Muzaffarpur	Bihar	IND	241107
+1127	Nizamabad	Andhra Pradesh	IND	241034
+1128	Muzaffarnagar	Uttar Pradesh	IND	240609
+1129	Patiala	Punjab	IND	238368
+1130	Shahjahanpur	Uttar Pradesh	IND	237713
+1131	Kurnool	Andhra Pradesh	IND	236800
+1132	Tiruppur (Tirupper)	Tamil Nadu	IND	235661
+1133	Rohtak	Haryana	IND	233400
+1134	South Dum Dum	West Bengali	IND	232811
+1135	Mathura	Uttar Pradesh	IND	226691
+1136	Chandrapur	Maharashtra	IND	226105
+1137	Barahanagar (Baranagar)	West Bengali	IND	224821
+1138	Darbhanga	Bihar	IND	218391
+1139	Siliguri (Shiliguri)	West Bengali	IND	216950
+1140	Raurkela	Orissa	IND	215489
+1141	Ambattur	Tamil Nadu	IND	215424
+1142	Panipat	Haryana	IND	215218
+1143	Firozabad	Uttar Pradesh	IND	215128
+1144	Ichalkaranji	Maharashtra	IND	214950
+1145	Jammu	Jammu and Kashmir	IND	214737
+1146	Ramagundam	Andhra Pradesh	IND	214384
+1147	Eluru	Andhra Pradesh	IND	212866
+1148	Brahmapur	Orissa	IND	210418
+1149	Alwar	Rajasthan	IND	205086
+1150	Pondicherry	Pondicherry	IND	203065
+1151	Thanjavur	Tamil Nadu	IND	202013
+1152	Bihar Sharif	Bihar	IND	201323
+1153	Tuticorin	Tamil Nadu	IND	199854
+1154	Imphal	Manipur	IND	198535
+1155	Latur	Maharashtra	IND	197408
+1156	Sagar	Madhya Pradesh	IND	195346
+1157	Farrukhabad-cum-Fatehgarh	Uttar Pradesh	IND	194567
+1158	Sangli	Maharashtra	IND	193197
+1159	Parbhani	Maharashtra	IND	190255
+1160	Nagar Coil	Tamil Nadu	IND	190084
+1161	Bijapur	Karnataka	IND	186939
+1162	Kukatpalle	Andhra Pradesh	IND	185378
+1163	Bally	West Bengali	IND	184474
+1164	Bhilwara	Rajasthan	IND	183965
+1165	Ratlam	Madhya Pradesh	IND	183375
+1166	Avadi	Tamil Nadu	IND	183215
+1167	Dindigul	Tamil Nadu	IND	182477
+1168	Ahmadnagar	Maharashtra	IND	181339
+1169	Bilaspur	Chhatisgarh	IND	179833
+1170	Shimoga	Karnataka	IND	179258
+1171	Kharagpur	West Bengali	IND	177989
+1172	Mira Bhayandar	Maharashtra	IND	175372
+1173	Vellore	Tamil Nadu	IND	175061
+1174	Jalna	Maharashtra	IND	174985
+1175	Burnpur	West Bengali	IND	174933
+1176	Anantapur	Andhra Pradesh	IND	174924
+1177	Allappuzha (Alleppey)	Kerala	IND	174666
+1178	Tirupati	Andhra Pradesh	IND	174369
+1179	Karnal	Haryana	IND	173751
+1180	Burhanpur	Madhya Pradesh	IND	172710
+1181	Hisar (Hissar)	Haryana	IND	172677
+1182	Tiruvottiyur	Tamil Nadu	IND	172562
+1183	Mirzapur-cum-Vindhyachal	Uttar Pradesh	IND	169336
+1184	Secunderabad	Andhra Pradesh	IND	167461
+1185	Nadiad	Gujarat	IND	167051
+1186	Dewas	Madhya Pradesh	IND	164364
+1187	Murwara (Katni)	Madhya Pradesh	IND	163431
+1188	Ganganagar	Rajasthan	IND	161482
+1189	Vizianagaram	Andhra Pradesh	IND	160359
+1190	Erode	Tamil Nadu	IND	159232
+1191	Machilipatnam (Masulipatam)	Andhra Pradesh	IND	159110
+1192	Bhatinda (Bathinda)	Punjab	IND	159042
+1193	Raichur	Karnataka	IND	157551
+1194	Agartala	Tripura	IND	157358
+1195	Arrah (Ara)	Bihar	IND	157082
+1196	Satna	Madhya Pradesh	IND	156630
+1197	Lalbahadur Nagar	Andhra Pradesh	IND	155500
+1198	Aizawl	Mizoram	IND	155240
+1199	Uluberia	West Bengali	IND	155172
+1200	Katihar	Bihar	IND	154367
+1201	Cuddalore	Tamil Nadu	IND	153086
+1202	Hugli-Chinsurah	West Bengali	IND	151806
+1203	Dhanbad	Jharkhand	IND	151789
+1204	Raiganj	West Bengali	IND	151045
+1205	Sambhal	Uttar Pradesh	IND	150869
+1206	Durg	Chhatisgarh	IND	150645
+1207	Munger (Monghyr)	Bihar	IND	150112
+1208	Kanchipuram	Tamil Nadu	IND	150100
+1209	North Dum Dum	West Bengali	IND	149965
+1210	Karimnagar	Andhra Pradesh	IND	148583
+1211	Bharatpur	Rajasthan	IND	148519
+1212	Sikar	Rajasthan	IND	148272
+1213	Hardwar (Haridwar)	Uttaranchal	IND	147305
+1214	Dabgram	West Bengali	IND	147217
+1215	Morena	Madhya Pradesh	IND	147124
+1216	Noida	Uttar Pradesh	IND	146514
+1217	Hapur	Uttar Pradesh	IND	146262
+1218	Bhusawal	Maharashtra	IND	145143
+1219	Khandwa	Madhya Pradesh	IND	145133
+1220	Yamuna Nagar	Haryana	IND	144346
+1221	Sonipat (Sonepat)	Haryana	IND	143922
+1222	Tenali	Andhra Pradesh	IND	143726
+1223	Raurkela Civil Township	Orissa	IND	140408
+1224	Kollam (Quilon)	Kerala	IND	139852
+1225	Kumbakonam	Tamil Nadu	IND	139483
+1226	Ingraj Bazar (English Bazar)	West Bengali	IND	139204
+1227	Timkur	Karnataka	IND	138903
+1228	Amroha	Uttar Pradesh	IND	137061
+1229	Serampore	West Bengali	IND	137028
+1230	Chapra	Bihar	IND	136877
+1231	Pali	Rajasthan	IND	136842
+1232	Maunath Bhanjan	Uttar Pradesh	IND	136697
+1233	Adoni	Andhra Pradesh	IND	136182
+1234	Jaunpur	Uttar Pradesh	IND	136062
+1235	Tirunelveli	Tamil Nadu	IND	135825
+1236	Bahraich	Uttar Pradesh	IND	135400
+1237	Gadag Betigeri	Karnataka	IND	134051
+1238	Proddatur	Andhra Pradesh	IND	133914
+1239	Chittoor	Andhra Pradesh	IND	133462
+1240	Barrackpur	West Bengali	IND	133265
+1241	Bharuch (Broach)	Gujarat	IND	133102
+1242	Naihati	West Bengali	IND	132701
+1243	Shillong	Meghalaya	IND	131719
+1244	Sambalpur	Orissa	IND	131138
+1245	Junagadh	Gujarat	IND	130484
+1246	Rae Bareli	Uttar Pradesh	IND	129904
+1247	Rewa	Madhya Pradesh	IND	128981
+1248	Gurgaon	Haryana	IND	128608
+1249	Khammam	Andhra Pradesh	IND	127992
+1250	Bulandshahr	Uttar Pradesh	IND	127201
+1251	Navsari	Gujarat	IND	126089
+1252	Malkajgiri	Andhra Pradesh	IND	126066
+1253	Midnapore (Medinipur)	West Bengali	IND	125498
+1254	Miraj	Maharashtra	IND	125407
+1255	Raj Nandgaon	Chhatisgarh	IND	125371
+1256	Alandur	Tamil Nadu	IND	125244
+1257	Puri	Orissa	IND	125199
+1258	Navadwip	West Bengali	IND	125037
+1259	Sirsa	Haryana	IND	125000
+1260	Korba	Chhatisgarh	IND	124501
+1261	Faizabad	Uttar Pradesh	IND	124437
+1262	Etawah	Uttar Pradesh	IND	124072
+1263	Pathankot	Punjab	IND	123930
+1264	Gandhinagar	Gujarat	IND	123359
+1265	Palghat (Palakkad)	Kerala	IND	123289
+1266	Veraval	Gujarat	IND	123000
+1267	Hoshiarpur	Punjab	IND	122705
+1268	Ambala	Haryana	IND	122596
+1269	Sitapur	Uttar Pradesh	IND	121842
+1270	Bhiwani	Haryana	IND	121629
+1271	Cuddapah	Andhra Pradesh	IND	121463
+1272	Bhimavaram	Andhra Pradesh	IND	121314
+1273	Krishnanagar	West Bengali	IND	121110
+1274	Chandannagar	West Bengali	IND	120378
+1275	Mandya	Karnataka	IND	120265
+1276	Dibrugarh	Assam	IND	120127
+1277	Nandyal	Andhra Pradesh	IND	119813
+1278	Balurghat	West Bengali	IND	119796
+1279	Neyveli	Tamil Nadu	IND	118080
+1280	Fatehpur	Uttar Pradesh	IND	117675
+1281	Mahbubnagar	Andhra Pradesh	IND	116833
+1282	Budaun	Uttar Pradesh	IND	116695
+1283	Porbandar	Gujarat	IND	116671
+1284	Silchar	Assam	IND	115483
+1285	Berhampore (Baharampur)	West Bengali	IND	115144
+1286	Purnea (Purnia)	Jharkhand	IND	114912
+1287	Bankura	West Bengali	IND	114876
+1288	Rajapalaiyam	Tamil Nadu	IND	114202
+1289	Titagarh	West Bengali	IND	114085
+1290	Halisahar	West Bengali	IND	114028
+1291	Hathras	Uttar Pradesh	IND	113285
+1292	Bhir (Bid)	Maharashtra	IND	112434
+1293	Pallavaram	Tamil Nadu	IND	111866
+1294	Anand	Gujarat	IND	110266
+1295	Mango	Jharkhand	IND	110024
+1296	Santipur	West Bengali	IND	109956
+1297	Bhind	Madhya Pradesh	IND	109755
+1298	Gondiya	Maharashtra	IND	109470
+1299	Tiruvannamalai	Tamil Nadu	IND	109196
+1300	Yeotmal (Yavatmal)	Maharashtra	IND	108578
+1301	Kulti-Barakar	West Bengali	IND	108518
+1302	Moga	Punjab	IND	108304
+1303	Shivapuri	Madhya Pradesh	IND	108277
+1304	Bidar	Karnataka	IND	108016
+1305	Guntakal	Andhra Pradesh	IND	107592
+1306	Unnao	Uttar Pradesh	IND	107425
+1307	Barasat	West Bengali	IND	107365
+1308	Tambaram	Tamil Nadu	IND	107187
+1309	Abohar	Punjab	IND	107163
+1310	Pilibhit	Uttar Pradesh	IND	106605
+1311	Valparai	Tamil Nadu	IND	106523
+1312	Gonda	Uttar Pradesh	IND	106078
+1313	Surendranagar	Gujarat	IND	105973
+1314	Qutubullapur	Andhra Pradesh	IND	105380
+1315	Beawar	Rajasthan	IND	105363
+1316	Hindupur	Andhra Pradesh	IND	104651
+1317	Gandhidham	Gujarat	IND	104585
+1318	Haldwani-cum-Kathgodam	Uttaranchal	IND	104195
+1319	Tellicherry (Thalassery)	Kerala	IND	103579
+1320	Wardha	Maharashtra	IND	102985
+1321	Rishra	West Bengali	IND	102649
+1322	Bhuj	Gujarat	IND	102176
+1323	Modinagar	Uttar Pradesh	IND	101660
+1324	Gudivada	Andhra Pradesh	IND	101656
+1325	Basirhat	West Bengali	IND	101409
+1326	Uttarpara-Kotrung	West Bengali	IND	100867
+1327	Ongole	Andhra Pradesh	IND	100836
+1328	North Barrackpur	West Bengali	IND	100513
+1329	Guna	Madhya Pradesh	IND	100490
+1330	Haldia	West Bengali	IND	100347
+1331	Habra	West Bengali	IND	100223
+1332	Kanchrapara	West Bengali	IND	100194
+1333	Tonk	Rajasthan	IND	100079
+1334	Champdani	West Bengali	IND	98818
+1335	Orai	Uttar Pradesh	IND	98640
+1336	Pudukkottai	Tamil Nadu	IND	98619
+1337	Sasaram	Bihar	IND	98220
+1338	Hazaribag	Jharkhand	IND	97712
+1339	Palayankottai	Tamil Nadu	IND	97662
+1340	Banda	Uttar Pradesh	IND	97227
+1341	Godhra	Gujarat	IND	96813
+1342	Hospet	Karnataka	IND	96322
+1343	Ashoknagar-Kalyangarh	West Bengali	IND	96315
+1344	Achalpur	Maharashtra	IND	96216
+1345	Patan	Gujarat	IND	96109
+1346	Mandasor	Madhya Pradesh	IND	95758
+1347	Damoh	Madhya Pradesh	IND	95661
+1348	Satara	Maharashtra	IND	95133
+1349	Meerut Cantonment	Uttar Pradesh	IND	94876
+1350	Dehri	Bihar	IND	94526
+1351	Delhi Cantonment	Delhi	IND	94326
+1352	Chhindwara	Madhya Pradesh	IND	93731
+1353	Bansberia	West Bengali	IND	93447
+1354	Nagaon	Assam	IND	93350
+1355	Kanpur Cantonment	Uttar Pradesh	IND	93109
+1356	Vidisha	Madhya Pradesh	IND	92917
+1357	Bettiah	Bihar	IND	92583
+1358	Purulia	Jharkhand	IND	92574
+1359	Hassan	Karnataka	IND	90803
+1360	Ambala Sadar	Haryana	IND	90712
+1361	Baidyabati	West Bengali	IND	90601
+1362	Morvi	Gujarat	IND	90357
+1363	Raigarh	Chhatisgarh	IND	89166
+1364	Vejalpur	Gujarat	IND	89053

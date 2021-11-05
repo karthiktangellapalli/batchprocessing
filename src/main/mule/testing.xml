@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:salesforce="http://www.mulesoft.org/schema/mule/salesforce" xmlns:ee="http://www.mulesoft.org/schema/mule/ee/core"
+	xmlns:file="http://www.mulesoft.org/schema/mule/file"
+	xmlns:batch="http://www.mulesoft.org/schema/mule/batch" xmlns:db="http://www.mulesoft.org/schema/mule/db" xmlns:http="http://www.mulesoft.org/schema/mule/http" xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd
+http://www.mulesoft.org/schema/mule/db http://www.mulesoft.org/schema/mule/db/current/mule-db.xsd
+http://www.mulesoft.org/schema/mule/batch http://www.mulesoft.org/schema/mule/batch/current/mule-batch.xsd
+http://www.mulesoft.org/schema/mule/file http://www.mulesoft.org/schema/mule/file/current/mule-file.xsd
+http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd
+http://www.mulesoft.org/schema/mule/salesforce http://www.mulesoft.org/schema/mule/salesforce/current/mule-salesforce.xsd">
+	<http:listener-config name="HTTP_Listener_config" doc:name="HTTP Listener config" doc:id="474fc450-c382-448a-b294-08a9eb6e362a" >
+		<http:listener-connection host="0.0.0.0" port="8082" />
+	</http:listener-config>
+	<db:config name="Database_Config" doc:name="Database Config" doc:id="d33fae99-8712-4176-b866-6d26231d0058" >
+		<db:my-sql-connection host="localhost" port="3306" user="admin" password="root@123" />
+	</db:config>
+	<file:config name="File_Config" doc:name="File Config" doc:id="8438a13a-0b76-4c1f-9187-c1f35183fab0" />
+	<flow name="testingFlow" doc:id="ed0b20bd-b80c-46fc-9df5-9746c1ee4cdd" >
+		<http:listener doc:name="Listener" doc:id="b14023f0-dfae-481c-ba77-da48fc9f21f8" config-ref="HTTP_Listener_config" path="test"/>
+		<logger level="INFO" doc:name="Logger" doc:id="0adcbb6d-b673-4c32-b3d8-f2277fd71952" message="#[mule.home]"/>
+		<file:read doc:name="Read" doc:id="67784b64-bb83-42a6-a083-fe007a6ef08e" config-ref="File_Config" path="C:\Users\ktangellapalli\Desktop\bulk2.csv"/>
+		<ee:transform doc:name="Transform Message" doc:id="ba273344-a98f-4e6b-83ee-cc2d251f7fc1" >
+			<ee:message >
+				<ee:set-payload ><![CDATA[%dw 2.0
+output application/java
+---
+payload map
+{
+	ID: $.ID,
+	Name:$.Name,
+	District: $.District,
+	CountryCode: $.CountryCode,
+	Population:$.Population
+}]]></ee:set-payload>
+			</ee:message>
+		</ee:transform>
+		<logger level="INFO" doc:name="Logger" doc:id="1267b2c7-4835-4137-8f65-ce92b4f7f89a" message="#[payload]"/>
+		<batch:job jobName="testingBatch_Job" doc:id="87e1c172-d711-4216-bed2-87c8f9a14a6c" maxFailedRecords="-1">
+			<batch:process-records >
+				<batch:step name="Batch_Step" doc:id="00261374-a6eb-4dd5-bf82-097b2651d864" acceptPolicy="ALL" acceptExpression="payload.CountryCode == 'USA'">
+					<logger level="INFO" doc:name="Logger" doc:id="5d5fea4c-6cf8-4578-9682-6cc5968f6a05" message="#[payload]"/>
+					<batch:aggregator doc:name="Batch Aggregator" doc:id="a9b5cadf-eed4-4b8e-aead-b972fe1ef58e" size="50">
+						<ee:transform doc:name="Transform Message" doc:id="f3da9fdd-0f44-4319-9093-c6a76e7f07a3">
+						<ee:message>
+							<ee:set-payload><![CDATA[%dw 2.0
+output application/json
+---
+payload]]></ee:set-payload>
+						</ee:message>
+					</ee:transform>
+						<db:bulk-insert doc:name="Bulk insert" doc:id="b880f5d4-75fe-4817-8136-8bb4a7530da0" config-ref="Database_Config">
+							<db:sql ><![CDATA[insert into db1.pop1details
+(ID, Name, District, CountryCode, Population)
+values (:ID, :Name, :District, :CountryCode, :Population)]]></db:sql>
+						</db:bulk-insert>
+					</batch:aggregator>
+					<logger level="INFO" doc:name="Logger" doc:id="9c0eace4-fd2f-4233-81ac-777d933172e7" message="#[payload.Population]"/>
+				</batch:step>
+			</batch:process-records>
+			<batch:on-complete >
+				<logger level="INFO" doc:name="Logger" doc:id="c6ac66e8-53ad-4ad0-8910-3956878829a1" message="Batch Job Completed"/>
+			</batch:on-complete>
+		</batch:job>
+		<ee:transform doc:name="Transform Message" doc:id="8744750a-8522-4c65-9acc-126c14604131" >
+			<ee:message >
+				<ee:set-payload ><![CDATA[%dw 2.0
+output application/json
+---
+{
+	"message" : "Successfully inserted records into db1.pop1details table"
+}]]></ee:set-payload>
+			</ee:message>
+		</ee:transform>
+		<logger level="INFO" doc:name="Logger" doc:id="347a6870-40f1-4e8e-ba37-5b8506f94fcd" message="ExitLogger"/>
+	</flow>
+</mule>
